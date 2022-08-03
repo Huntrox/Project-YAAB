@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+
+#ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : EditorWindow
+{
+    
+	 private static #SCRIPTNAME# window;
+    [MenuItem("HuntroxUtils/#SCRIPTNAME# EditorWindow")]
+	public static void ShowWindow()
+    {
+		#NOTRIM#
+        window = (#SCRIPTNAME#)GetWindow(typeof(#SCRIPTNAME#), false, "#SCRIPTNAME# Editor");
+		#NOTRIM#
+    }
+}
+#ROOTNAMESPACEEND#

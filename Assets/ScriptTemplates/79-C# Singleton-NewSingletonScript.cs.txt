@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using HuntroxHames.Utils;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : Singleton<#SCRIPTNAME#>
+{
+    
+    protected override void Awake()
+    {
+	base.Awake();
+    }
+
+    void Start()
+    {
+        #NOTRIM#
+    }
+
+    void Update()
+    {
+        #NOTRIM#
+    }
+
+}
+#ROOTNAMESPACEEND#
