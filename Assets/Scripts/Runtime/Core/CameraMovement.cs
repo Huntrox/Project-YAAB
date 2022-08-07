@@ -13,7 +13,7 @@ namespace HuntroxGames
             moveAction.Enable();
         }
 
-        void Update()
+        private void Update()
         {
             var x = moveAction.ReadValue<Vector2>().x * speed * Time.deltaTime;
             var z = moveAction.ReadValue<Vector2>().y * speed * Time.deltaTime;
